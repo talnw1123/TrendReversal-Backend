@@ -39,42 +39,7 @@ backend/
 
 ### 1. สร้างไฟล์ .env
 
-สร้างไฟล์ `.env` ในโฟลเดอร์ `backend/` และใส่ค่าดังนี้:
-
-```env
-# Application
-NODE_ENV=development
-PORT=3000
-API_PREFIX=api/v1
-
-# Database - PostgreSQL
-DB_HOST=localhost
-DB_PORT=8000
-DB_USERNAME=postgres
-DB_PASSWORD=your_password
-DB_NAME=trend_reversal_db
-
-# Redis
-REDIS_HOST=localhost
-REDIS_PORT=7000
-REDIS_PASSWORD=
-
-# JWT
-JWT_SECRET=your_super_secret_key_here
-JWT_EXPIRES_IN=7d
-
-# Google OAuth
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_CALLBACK_URL=http://localhost:3000/api/v1/auth/google/callback
-
-# Mobile App Redirect
-MOBILE_APP_REDIRECT_URL=http://localhost:3000/auth/success
-
-# ML API
-ML_API_BASE_URL=http://localhost:5000/
-ML_API_KEY=your_ml_api_key
-```
+สร้างไฟล์ `.env` ในโฟลเดอร์ `backend/` 
 
 ### 2. Build และ Run ทุก Services
 
